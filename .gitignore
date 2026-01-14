@@ -1,0 +1,14 @@
+# it will ignour to push tfvar file to git repo
+.terraform*
+*.tfstate
+*.tfstate.*backup 
+.terraform.local.hcl
+crash.log
+*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+terraform.tfvar
+*.tfvar.json
+.terraform/
